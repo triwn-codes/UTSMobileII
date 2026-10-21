@@ -1,0 +1,14 @@
+package id.ac.polbeng.triwahyuningsih.utsmobileii.retrofit
+
+import id.ac.polbeng.triwahyuningsih.utsmobileii.response.ProductResponse
+import retrofit2.Call
+import retrofit2.http.GET
+import retrofit2.http.Query
+
+interface ApiService {
+    @GET("products")
+    fun getProducts(
+        @Query("limit") limit: Int = 25,
+        @Query("select") select: String = "id,title,description,category,price,stock,availabilityStatus,tags,dimensions,reviews,rating,images,thumbnail"
+    ): Call<ProductResponse>
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UTSMobileII</string>
+    <string name="title_products">Daftar Produk</string>
+    <string name="title_profile">Profil Developer</string>
+    <string name="price_format">Price: $%1$.2f</string>
+    <string name="stock_format">Stock: %1$d</string>
+    <string name="rating_format">Rating: %1$.2f</string>
+    <string name="see_all_reviews">Lihat Semua Review</string>
+</resources>
